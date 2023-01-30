@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="625.0" prefWidth="850.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.PlaceOrderFormController">
+   <children>
+      <TableView fx:id="placeOrderTbl" layoutX="9.0" layoutY="227.0" prefHeight="387.0" prefWidth="830.0">
+        <columns>
+          <TableColumn fx:id="noCol" prefWidth="75.0" text="No" />
+          <TableColumn fx:id="productCol" prefWidth="199.0" text="Product" />
+            <TableColumn fx:id="priceCol" prefWidth="137.0" text="Price" />
+            <TableColumn fx:id="qtyCol" prefWidth="114.0" text="Qty" />
+            <TableColumn fx:id="totalCol" prefWidth="179.0" text="Total" />
+            <TableColumn fx:id="optionCol" prefWidth="120.0" text="Options" />
+        </columns>
+      </TableView>
+      <JFXComboBox fx:id="productCmb" layoutX="23.0" layoutY="12.0" onAction="#productCmbAction" prefHeight="31.0" prefWidth="203.0" promptText="Product" />
+      <JFXTextField fx:id="qtyTxt" layoutX="23.0" layoutY="160.0" prefHeight="31.0" prefWidth="203.0" promptText="Qty" />
+      <JFXButton layoutX="303.0" layoutY="167.0" onAction="#addItemBtnOnAction" prefHeight="31.0" prefWidth="61.0" style="-fx-background-color: green;" text="Add" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <Separator layoutX="376.0" layoutY="14.0" orientation="VERTICAL" prefHeight="200.0" />
+      <JFXButton layoutX="673.0" layoutY="164.0" onAction="#placeOrderBtnOnAction" prefHeight="43.0" prefWidth="152.0" style="-fx-background-color: green;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="403.0" layoutY="101.0" prefHeight="31.0" prefWidth="61.0" text="Total :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="totLbl" layoutX="476.0" layoutY="101.0" prefHeight="31.0" prefWidth="82.0" text="1500.00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="628.0" layoutY="102.0" prefHeight="31.0" prefWidth="96.0" text="Discount :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="discountTxt" layoutX="724.0" layoutY="96.0" onAction="#discountCalcAction" prefHeight="31.0" prefWidth="96.0" promptText="0%" />
+      <JFXComboBox fx:id="customerCmb" layoutX="622.0" layoutY="15.0" prefHeight="31.0" prefWidth="203.0" promptText="Customer" />
+      <Label layoutX="403.0" layoutY="160.0" prefHeight="31.0" prefWidth="111.0" text="Sub Total :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="subTotLbl" layoutX="522.0" layoutY="160.0" prefHeight="31.0" prefWidth="82.0" text="1500.00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="productLbl" layoutX="23.0" layoutY="78.0" prefHeight="64.0" prefWidth="264.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="403.0" layoutY="32.0" prefHeight="31.0" prefWidth="96.0" text="Order Id :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="orderIdTxt" layoutX="500.0" layoutY="31.0" prefHeight="31.0" prefWidth="104.0" text="1500.00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

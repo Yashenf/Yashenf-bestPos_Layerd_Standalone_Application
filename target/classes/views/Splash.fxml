@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="slashContext" prefHeight="335.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.SplashController">
+   <children>
+      <ImageView fitHeight="272.0" fitWidth="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/360_F_438960614_QHYoL7sLWzU5gqrMg9XpozTQl7rKHqAY.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rctContainer" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="11.0" layoutY="317.0" stroke="WHITE" strokeType="INSIDE" width="580.0" />
+      <Rectangle fx:id="rctLoading" arcHeight="5.0" arcWidth="5.0" fill="#1fff28" height="11.0" layoutX="11.0" layoutY="317.0" stroke="WHITE" strokeType="INSIDE" width="32.0" />
+      <Label layoutX="179.0" layoutY="82.0" prefHeight="48.0" prefWidth="147.0" text="Best Pos">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLoading" layoutX="305.0" layoutY="296.0" prefHeight="21.0" prefWidth="287.0" />
+   </children>
+</AnchorPane>

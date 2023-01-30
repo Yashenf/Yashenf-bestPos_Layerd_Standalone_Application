@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.customer.UpdateCustomerForm">
+   <children>
+      <JFXTextField fx:id="idTxt" layoutX="61.0" layoutY="97.0" prefHeight="31.0" prefWidth="197.0" promptText="id" />
+      <JFXTextField fx:id="nameTxt" layoutX="340.0" layoutY="96.0" prefHeight="31.0" prefWidth="197.0" promptText="name" />
+      <JFXTextArea fx:id="addressTxt" layoutX="63.0" layoutY="245.0" prefHeight="80.0" prefWidth="485.0" promptText="Address" />
+      <JFXTextField fx:id="contactTxt" layoutX="61.0" layoutY="189.0" prefHeight="31.0" prefWidth="197.0" promptText="contact" />
+      <JFXTextField fx:id="emailTxt" layoutX="340.0" layoutY="188.0" prefHeight="31.0" prefWidth="197.0" promptText="email" />
+      <JFXButton layoutX="454.0" layoutY="348.0" onAction="#customerUpdateBtnOnAction" prefHeight="46.0" prefWidth="91.0" style="-fx-background-color: green;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="193.0" layoutY="33.0" prefHeight="35.0" prefWidth="207.0" text="Update Customer">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

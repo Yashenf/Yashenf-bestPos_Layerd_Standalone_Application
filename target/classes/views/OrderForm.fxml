@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="625.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.OrderFormController">
+   <children>
+      <TableView fx:id="orderTbl" layoutX="371.0" layoutY="14.0" prefHeight="607.0" prefWidth="474.0">
+        <columns>
+          <TableColumn prefWidth="138.0" text="Order No" />
+          <TableColumn prefWidth="152.0" text="Customer" />
+            <TableColumn prefWidth="180.0" text="Date" />
+        </columns>
+      </TableView>
+      <TableView fx:id="cartTbl" layoutX="14.0" layoutY="209.0" prefHeight="404.0" prefWidth="341.0">
+        <columns>
+          <TableColumn prefWidth="95.0" text="Product" />
+          <TableColumn prefWidth="122.0" text="Qty" />
+            <TableColumn prefWidth="123.0" text="Total" />
+        </columns>
+      </TableView>
+      <Label fx:id="customerNameLbl" layoutX="14.0" layoutY="36.0" prefHeight="35.0" prefWidth="251.0" text="customer name" />
+      <Label fx:id="orderIdLbl" layoutX="14.0" layoutY="81.0" prefHeight="35.0" prefWidth="251.0" text="order id" />
+      <Label layoutX="13.0" layoutY="132.0" prefHeight="35.0" prefWidth="49.0" text="Total :" />
+      <Label fx:id="totalLbl" layoutX="73.0" layoutY="132.0" prefHeight="35.0" prefWidth="183.0" text="Total :" />
+   </children>
+</AnchorPane>

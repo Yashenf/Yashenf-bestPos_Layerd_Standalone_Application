@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="738.0" prefWidth="1159.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.ContainerController">
+   <children>
+      <AnchorPane fx:id="paneContainer" layoutX="302.0" layoutY="71.0" prefHeight="625.0" prefWidth="850.0" style="-fx-background-color: white; -fx-background-radius: 1;" />
+      <ImageView fitHeight="74.0" fitWidth="85.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/240_F_117836717_m5gith4dzmoKcipIkQIdk0SeOkXIgpWJ.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="timeLbl" layoutX="960.0" layoutY="15.0" prefHeight="36.0" prefWidth="177.0" text="12:56 PM">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="14.0" layoutY="73.0" prefHeight="624.0" prefWidth="288.0" style="-fx-background-color: white;">
+         <children>
+            <JFXButton layoutX="19.0" layoutY="50.0" onAction="#manageCustomersBtnOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Customers">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="44.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-customer-64.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="17.0" layoutY="141.0" onAction="#manageProductsBtnOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Products">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="42.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-shipping-product-24.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="17.0" layoutY="235.0" onAction="#placeOrderBtnOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Place Order">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="42.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-create-order-50.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="17.0" layoutY="329.0" onAction="#deliveryBtnOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Delivery">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="42.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-deliver-food-50.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="17.0" layoutY="429.0" onAction="#deliveryAgencyBtnOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Delivery Agency">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="26.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-business-building-30.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="17.0" layoutY="521.0" onAction="#internalOperationOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Internal Operations">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="14.0" layoutY="538.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-business-building-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="405.0" layoutY="703.0" prefHeight="21.0" prefWidth="446.0" text="Copyright © 2023 ABC Softwares. All rights reserved." />
+      <Label fx:id="userNameLbl" layoutX="358.0" layoutY="18.0" prefHeight="36.0" prefWidth="193.0" />
+      <Label fx:id="dateLbl" layoutX="758.0" layoutY="18.0" prefHeight="36.0" prefWidth="177.0" text="12:56 PM">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

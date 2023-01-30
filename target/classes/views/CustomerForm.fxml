@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="625.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.CustomerFormController">
+   <children>
+      <Separator layoutX="14.0" layoutY="82.0" prefHeight="0.0" prefWidth="817.0" />
+      <TableView fx:id="customerTbl" layoutX="7.0" layoutY="151.0" prefHeight="469.0" prefWidth="840.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="108.0" text="ID" />
+          <TableColumn fx:id="nameCol" prefWidth="172.0" text="Name" />
+            <TableColumn fx:id="cityCol" prefWidth="175.0" text="City" />
+            <TableColumn fx:id="contactCol" prefWidth="161.0" text="Contact" />
+            <TableColumn fx:id="contactCol1" prefWidth="220.0" text="Email" />
+        </columns>
+      </TableView>
+      <TextField fx:id="searchTxt" layoutX="19.0" layoutY="97.0" onAction="#searchTxtOnAction" prefHeight="31.0" prefWidth="817.0" promptText="search here" />
+      <JFXButton layoutX="50.0" layoutY="9.0" onAction="#addCustomerBtnOnAction" prefHeight="65.0" prefWidth="180.0" style="-fx-background-color: #c8d6e5; -fx-background-radius: 12; -fx-border-radius: 12;" text="Add Customer">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Add_user_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="updateBtn" layoutX="324.0" layoutY="9.0" onAction="#updateCustomerBtnOnAction" prefHeight="65.0" prefWidth="180.0" style="-fx-background-color: #c8d6e5; -fx-background-radius: 12; -fx-border-radius: 12;" text="Update">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/update_user.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="deleteBtn" layoutX="621.0" layoutY="8.0" onAction="#deleteCustomerBtnOnAction" prefHeight="65.0" prefWidth="180.0" style="-fx-background-color: #c8d6e5; -fx-background-radius: 12; -fx-border-radius: 12;" text="Delete">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/back_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

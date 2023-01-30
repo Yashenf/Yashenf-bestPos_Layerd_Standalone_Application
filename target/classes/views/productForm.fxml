@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="625.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.ProductForm">
+   <children>
+      <Separator layoutX="14.0" layoutY="90.0" prefHeight="0.0" prefWidth="808.0" />
+      <JFXButton layoutX="52.0" layoutY="13.0" onAction="#addProductBtnOnAction" prefHeight="65.0" prefWidth="180.0" style="-fx-background-color: #c8d6e5; -fx-background-radius: 12; -fx-border-radius: 12;" text="Add Product">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Add_user_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="updateProductBtn" layoutX="326.0" layoutY="13.0" onAction="#updateProductBtnOnAction" prefHeight="65.0" prefWidth="180.0" style="-fx-background-color: #c8d6e5; -fx-background-radius: 12; -fx-border-radius: 12;" text="Update">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/update_user.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="deleteProductBtn" layoutX="623.0" layoutY="12.0" onAction="#deleteDeleteBtnOnAction" prefHeight="65.0" prefWidth="180.0" style="-fx-background-color: #c8d6e5; -fx-background-radius: 12; -fx-border-radius: 12;" text="Delete">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/back_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <TextField fx:id="searchTxt" layoutX="49.0" layoutY="114.0" prefHeight="31.0" prefWidth="756.0" promptText="Search Here" />
+      <TableView fx:id="productTbl" layoutX="10.0" layoutY="225.0" prefHeight="344.0" prefWidth="819.0">
+        <columns>
+          <TableColumn fx:id="pIdCol" prefWidth="133.0" text="Id" />
+          <TableColumn fx:id="productCol" prefWidth="256.0" text="Product" />
+            <TableColumn fx:id="priceCol" prefWidth="223.0" text="price" />
+            <TableColumn fx:id="qtyCol" prefWidth="194.0" text="qty" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
