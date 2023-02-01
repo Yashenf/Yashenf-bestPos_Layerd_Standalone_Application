@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.agency.AddNewAgencyController">
+   <children>
+      <JFXTextField fx:id="idTxt" layoutX="28.0" layoutY="98.0" prefHeight="31.0" prefWidth="136.0" promptText="ID" />
+      <JFXTextField fx:id="nameTxt" layoutX="300.0" layoutY="99.0" prefHeight="31.0" prefWidth="259.0" promptText="Name" />
+      <JFXTextField fx:id="contactTxt" layoutX="28.0" layoutY="190.0" prefHeight="31.0" prefWidth="534.0" promptText="Contact" />
+      <JFXTextField fx:id="emailTxt" layoutX="28.0" layoutY="269.0" prefHeight="31.0" prefWidth="534.0" promptText="email" />
+      <JFXButton layoutX="465.0" layoutY="342.0" onAction="#saveBtnOnAction" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: green;" text="save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

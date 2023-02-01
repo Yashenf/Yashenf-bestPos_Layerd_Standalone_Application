@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd1bab9f-3902-4a62-8165-114938340737" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/DeliveryAgencyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/DeliveryOptionFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/agency/AddNewAgencyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/agency/UpdateAgencyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/DeliveryAgency.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/DeliveryOptionForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/orderAgency/AddNewAgency.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/orderAgency/UpdateAgency.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/ContainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/ContainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/PlaceOrderFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/PlaceOrderFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Navigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Route.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/Container.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/Container.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yashen/bestPos/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yashen/bestPos/AppInitializer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +25,8 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="Enum" />
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -169,7 +170,7 @@
       <workItem from="1674964312913" duration="23088000" />
       <workItem from="1675004620848" duration="13555000" />
       <workItem from="1675089966689" duration="11000" />
-      <workItem from="1675275422771" duration="2191000" />
+      <workItem from="1675275422771" duration="4556000" />
     </task>
     <servers />
   </component>

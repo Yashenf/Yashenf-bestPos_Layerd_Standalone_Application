@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.DeliveryAgencyController">
+   <children>
+      <TableView fx:id="agencyTbl" layoutX="338.0" layoutY="21.0" prefHeight="557.0" prefWidth="448.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="144.0" text="Name" />
+            <TableColumn prefWidth="100.0" text="Contact" />
+            <TableColumn prefWidth="121.0" text="email" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="14.0" layoutY="148.0" onAction="#addBtnOnAction" prefHeight="65.0" prefWidth="304.0" style="-fx-background-color: green;" text="ADD" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="248.0" onAction="#updateBtnOnAction" prefHeight="65.0" prefWidth="304.0" style="-fx-background-color: green;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="359.0" onAction="#deleteBtnOnAction" prefHeight="65.0" prefWidth="304.0" style="-fx-background-color: green;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
