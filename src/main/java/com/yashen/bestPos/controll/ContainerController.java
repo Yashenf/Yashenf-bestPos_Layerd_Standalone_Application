@@ -23,10 +23,6 @@ public class ContainerController {
     @FXML
     private Label dateLbl;
 
-    @FXML
-    void deliveryAgencyBtnOnAction(ActionEvent event) throws IOException {
-
-    }
 
     @FXML
     void deliveryBtnOnAction(ActionEvent event) {
@@ -53,4 +49,8 @@ public class ContainerController {
         Navigation.navigate(Route.PLACE_ORDER);
     }
 
+    @FXML
+    public void OrdersBtnOnAction(ActionEvent actionEvent) throws IOException {
+        Navigation.navigate(Route.ORDER_DETAILS);
+    }
 }

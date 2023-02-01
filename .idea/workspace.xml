@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1bab9f-3902-4a62-8165-114938340737" name="Changes" comment="" />
+    <list default="true" id="fd1bab9f-3902-4a62-8165-114938340737" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/ContainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/ContainerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/PlaceOrderFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/PlaceOrderFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Navigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/util/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/Container.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/Container.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yashen/bestPos/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yashen/bestPos/AppInitializer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -160,6 +169,7 @@
       <workItem from="1674964312913" duration="23088000" />
       <workItem from="1675004620848" duration="13555000" />
       <workItem from="1675089966689" duration="11000" />
+      <workItem from="1675275422771" duration="2191000" />
     </task>
     <servers />
   </component>

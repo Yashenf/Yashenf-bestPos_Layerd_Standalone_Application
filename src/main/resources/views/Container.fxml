@@ -62,7 +62,7 @@
                   <Image url="@../assets/icons8-deliver-food-50.png" />
                </image>
             </ImageView>
-            <JFXButton layoutX="17.0" layoutY="429.0" onAction="#deliveryAgencyBtnOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Delivery Agency">
+            <JFXButton layoutX="17.0" layoutY="429.0" onAction="#OrdersBtnOnAction" prefHeight="74.0" prefWidth="253.0" style="-fx-background-color: #4bcffa;" text="Orders">
                <font>
                   <Font size="20.0" />
                </font>

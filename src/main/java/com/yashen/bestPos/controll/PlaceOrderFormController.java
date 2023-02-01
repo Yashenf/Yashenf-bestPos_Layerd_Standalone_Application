@@ -69,8 +69,14 @@ public class PlaceOrderFormController implements Initializable {
     ArrayList<PlaceOrderTM> tmList = new ArrayList<>();
 
     @FXML
-    void addItemBtnOnAction(ActionEvent event) {
-        lordTable();
+    void addItemBtnOnAction(ActionEvent event) throws SQLException, ClassNotFoundException {
+        ProductDTO product = placeOrderBO.getProductById(productCmb.getValue());
+        if(product.getQty() >= Integer.parseInt(qtyTxt.getText())){
+            lordTable();
+        }else {
+            new Alert(Alert.AlertType.WARNING,"This qty havent in stokes").show();
+        }
+
     }
 
 
