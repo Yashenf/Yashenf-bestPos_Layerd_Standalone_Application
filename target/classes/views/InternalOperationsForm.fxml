@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="625.0" prefWidth="850.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.InternalOperationsFormController">
+   <children>
+      <TableView fx:id="userTbl" layoutX="319.0" layoutY="3.0" prefHeight="618.0" prefWidth="529.0">
+        <columns>
+          <TableColumn prefWidth="117.0" text="Name" />
+          <TableColumn prefWidth="161.0" text="Username" />
+            <TableColumn prefWidth="132.0" text="Address" />
+            <TableColumn prefWidth="110.0" text="Acc type" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="38.0" layoutY="172.0" onAction="#createAccBtnOnAction" prefHeight="62.0" prefWidth="267.0" style="-fx-background-color: green;" text="Create Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="38.0" layoutY="270.0" onAction="#updateAccBtnOnAction" prefHeight="62.0" prefWidth="267.0" style="-fx-background-color: green;" text="Update Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="38.0" layoutY="369.0" onAction="#deleteBtnOnAction" prefHeight="62.0" prefWidth="267.0" style="-fx-background-color: green;" text="Delete Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

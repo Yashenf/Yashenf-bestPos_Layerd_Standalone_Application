@@ -1,22 +1,16 @@
 package com.yashen.bestPos.bo.util;
 
-import com.yashen.bestPos.dto.CustomerDTO;
-import com.yashen.bestPos.dto.OrderDTO;
-import com.yashen.bestPos.dto.OrderDetailsDTO;
-import com.yashen.bestPos.dto.ProductDTO;
-import com.yashen.bestPos.entity.Customer;
-import com.yashen.bestPos.entity.Order;
-import com.yashen.bestPos.entity.OrderDetails;
-import com.yashen.bestPos.entity.Product;
+import com.yashen.bestPos.dto.*;
+import com.yashen.bestPos.entity.*;
 
 public class Converter {
 
     /*
-    * from :- DAO (Entity) To BO
-    * to :- BO (DTO) to DAO
-    */
+     * from :- DAO (Entity) To BO
+     * to :- BO (DTO) to DAO
+     */
 
-    public CustomerDTO formCustomer(Customer customer){
+    public CustomerDTO formCustomer(Customer customer) {
         return new CustomerDTO(
                 customer.getCusId(),
                 customer.getCusName(),
@@ -26,7 +20,7 @@ public class Converter {
         );
     }
 
-    public Customer toCustomer(CustomerDTO customerDTO){
+    public Customer toCustomer(CustomerDTO customerDTO) {
         return new Customer(
                 customerDTO.getCusId(),
                 customerDTO.getCusName(),
@@ -36,7 +30,7 @@ public class Converter {
         );
     }
 
-    public ProductDTO fromProduct(Product product){
+    public ProductDTO fromProduct(Product product) {
         return new ProductDTO(
                 product.getpId(),
                 product.getpDesc(),
@@ -45,7 +39,7 @@ public class Converter {
         );
     }
 
-    public Product toProduct(ProductDTO productDTO){
+    public Product toProduct(ProductDTO productDTO) {
         return new Product(
                 productDTO.getId(),
                 productDTO.getDesc(),
@@ -54,7 +48,7 @@ public class Converter {
         );
     }
 
-    public OrderDTO fromOrder(Order order){
+    public OrderDTO fromOrder(Order order) {
         return new OrderDTO(
                 order.getOrdId(),
                 order.getCustomerId(),
@@ -62,7 +56,7 @@ public class Converter {
         );
     }
 
-    public Order toOrder(OrderDTO orderDTO){
+    public Order toOrder(OrderDTO orderDTO) {
         return new Order(
                 orderDTO.getOrdId(),
                 orderDTO.getCustomerId(),
@@ -70,7 +64,7 @@ public class Converter {
         );
     }
 
-    public OrderDetailsDTO fromOrderDetails(OrderDetails orderDetails){
+    public OrderDetailsDTO fromOrderDetails(OrderDetails orderDetails) {
         return new OrderDetailsDTO(
                 orderDetails.getOrdId(),
                 orderDetails.getProductId(),
@@ -78,11 +72,48 @@ public class Converter {
         );
     }
 
-    public OrderDetails toOrderDetails(OrderDetailsDTO orderDetailsDTO){
+    public OrderDetails toOrderDetails(OrderDetailsDTO orderDetailsDTO) {
         return new OrderDetails(
                 orderDetailsDTO.getOrdId(),
                 orderDetailsDTO.getProductId(),
                 orderDetailsDTO.getQty()
         );
     }
+
+    public DeliveryAgencyDTO fromDeliveryAgency(DeliveryCompany deliveryCompany) {
+        return new DeliveryAgencyDTO(
+                deliveryCompany.getComId(),
+                deliveryCompany.getComName(),
+                deliveryCompany.getComContact(),
+                deliveryCompany.getComEmail()
+        );
+    }
+
+    public DeliveryCompany toDeliveryAgency(DeliveryAgencyDTO deliveryAgencyDTO){
+        return new DeliveryCompany(
+                deliveryAgencyDTO.getComId(),
+                deliveryAgencyDTO.getComName(),
+                deliveryAgencyDTO.getComContact(),
+                deliveryAgencyDTO.getComEmail()
+        );
+    }
+
+    public DeliveryStatusDTO fromDeliveryStatus(DeliveryStatus deliveryStatus){
+        return new DeliveryStatusDTO(
+                deliveryStatus.getDeliveryTrackingNo(),
+                deliveryStatus.getDeliveryAgency(),
+                deliveryStatus.getOrderId(),
+                deliveryStatus.getDeliveryPrice()
+        );
+    }
+
+    public DeliveryStatus toDeliveryStatus(DeliveryStatusDTO deliveryStatusDTO){
+        return  new DeliveryStatus(
+                deliveryStatusDTO.getDeliveryTrackingNo(),
+                deliveryStatusDTO.getDeliveryAgency(),
+                deliveryStatusDTO.getOrderId(),
+                deliveryStatusDTO.getDeliveryCharge()
+        );
+    }
+
 }

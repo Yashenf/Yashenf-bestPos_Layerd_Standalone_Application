@@ -36,7 +36,7 @@ public class DeliveryStatusDAOImpl implements DeliveryStatusDAO {
 
     @Override
     public ArrayList<DeliveryStatus> getAll() throws RuntimeException, SQLException, ClassNotFoundException {
-        ResultSet rst = CrudUtil.execute("SELECT * FROM dilevery_status");
+        ResultSet rst = CrudUtil.execute("select * from `order` where `order`.ord_id NOT IN (select order_id from dilevery_status)");
         return getStatusList(rst);
     }
 

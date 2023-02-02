@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd1bab9f-3902-4a62-8165-114938340737" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/DeliveryAgencyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/DeliveryOptionFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/agency/AddNewAgencyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/agency/UpdateAgencyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/DeliveryAgency.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/DeliveryOptionForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/orderAgency/AddNewAgency.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/orderAgency/UpdateAgency.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/bo/custom/DeliveryAgencyBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/controll/InternalOperationsFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/dto/DeliveryAgencyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/InternalOperationsForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7ff14e6-f382-4d74-ac73-7a0d41bf6b17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7ff14e6-f382-4d74-ac73-7a0d41bf6b17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/dao/custom/impl/DeliveryStatusDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/dao/custom/impl/DeliveryStatusDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yashen/bestPos/mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/orderAgency/AddNewAgency.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/deliveryAgency/AddNewAgency.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/orderAgency/UpdateAgency.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/deliveryAgency/UpdateAgency.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +27,8 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -170,7 +172,8 @@
       <workItem from="1674964312913" duration="23088000" />
       <workItem from="1675004620848" duration="13555000" />
       <workItem from="1675089966689" duration="11000" />
-      <workItem from="1675275422771" duration="4556000" />
+      <workItem from="1675275422771" duration="5098000" />
+      <workItem from="1675311623175" duration="6029000" />
     </task>
     <servers />
   </component>
