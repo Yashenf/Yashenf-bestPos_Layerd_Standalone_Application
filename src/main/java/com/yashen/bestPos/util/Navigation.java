@@ -39,6 +39,15 @@ public class Navigation {
             case PRODUCT:
                 resource = Navigation.class.getResource("/views/productForm.fxml");
                 break;
+            case ORDER_DETAILS:
+                resource = Navigation.class.getResource("/views/OrderForm.fxml");
+                break;
+            case DELIVERY:
+                resource = Navigation.class.getResource("/views/DeliveryOptionForm.fxml");
+                break;
+            case AGENCY:
+                resource = Navigation.class.getResource("/views/DeliveryAgency.fxml");
+                break;
         }
 
 

@@ -62,7 +62,8 @@ public class DeliveryStatusDAOImpl implements DeliveryStatusDAO {
         }
     }
 
-    private ArrayList<DeliveryStatus> getStatusList(ResultSet rst) throws SQLException {
+    @Override
+    public ArrayList<DeliveryStatus> getStatusList(ResultSet rst) throws SQLException {
         ArrayList<DeliveryStatus> statuses = new ArrayList<>();
         while (rst.next()){
             statuses.add(new DeliveryStatus(
@@ -73,5 +74,12 @@ public class DeliveryStatusDAOImpl implements DeliveryStatusDAO {
             ));
         }
         return statuses;
+    }
+
+    @Override
+    public String getLstTrackId() throws RuntimeException, ClassNotFoundException, SQLException {
+        ResultSet rst = CrudUtil.execute("SELECT dilevery_tracking_no FROM dilevery_status ORDER BY (dilevery_tracking_no) DESC LIMIT 1");
+        rst.next();
+        return rst.getString(1);
     }
 }

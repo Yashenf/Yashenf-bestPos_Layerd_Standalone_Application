@@ -47,6 +47,9 @@ CREATE TABLE IF NOT EXISTS dilevery_agency(
                     CONSTRAINT PRIMARY KEY (com_id)
 );
 
+insert into dilevery_agency values ("Com002","XYZ Express","+94711974973","example@gmail.com");
+select * from dilevery_agency;
+
 CREATE TABLE IF NOT EXISTS dilevery_status(
                     dilevery_tracking_no VARCHAR (55),
                     dilevery_agency VARCHAR (55),
@@ -54,5 +57,23 @@ CREATE TABLE IF NOT EXISTS dilevery_status(
                     delevery_charge DOUBLE,
                     CONSTRAINT PRIMARY KEY (dilevery_tracking_no)
 );
-DELETE FROM order_details WHERE order_id_id=? AND product = ?
+insert into dilevery_status values ("TRC002","Com001","Ord00001",450);
+select * from dilevery_status;
+CREATE tABLE IF NOT EXISTS internal_operations(
+                    name VARCHAR (55),
+                    address VARCHAR (255),
+                    user_name VARCHAR (55),
+                    password VARCHAR (55),
+                    acc_type VARCHAR(20),
+                    CONSTRAINT PRIMARY KEY (user_name)
+);
+
 select * from order_details;
+show tables;
+
+INSERT INTO internal_operations VALUES ("Yashen Savindu","Matugama","Yashen123","yash2002","MANAGER");
+select * from internal_operations;
+select * from `order` where `order`.ord_id NOT IN (select order_id from dilevery_status);
+drop table internal_operations;
+
+

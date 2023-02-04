@@ -24,6 +24,10 @@ public class BOFactory {
                 return (T) new OrderBOImpl();
             case ORDER_DETAILS:
                 return (T) new OrderDetailsBOImpl();
+            case DELIVERY_STATUS:
+                return (T) new DeliveryStatusBOImpl();
+            case AGENCY:
+                return (T) new DeliveryAgencyBOImpl();
             default:
                 return null;
         }
