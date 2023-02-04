@@ -75,3 +75,5 @@ INSERT INTO internal_operations VALUES ("Yashen Savindu","Matugama","Yashen123",
 select * from internal_operations;
 select * from `order` where `order`.ord_id NOT IN (select order_id from dilevery_status);
 drop table internal_operations;
+
+

@@ -27,6 +27,8 @@ public class DaoFactory {
                 return (T) new DeliveryStatusDAOImpl();
             case ORDER_DETAILS:
                 return (T) new OrderDetailsDAOImpl();
+            case QUERY:
+                return (T) new QueryDAOImpl();
             default:
                 return null;
         }

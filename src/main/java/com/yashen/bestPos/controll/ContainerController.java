@@ -25,8 +25,8 @@ public class ContainerController {
 
 
     @FXML
-    void deliveryBtnOnAction(ActionEvent event) {
-
+    void deliveryBtnOnAction(ActionEvent event) throws IOException {
+        Navigation.navigate(Route.DELIVERY);
     }
 
     @FXML
