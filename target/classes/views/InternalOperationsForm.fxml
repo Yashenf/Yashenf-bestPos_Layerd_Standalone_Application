@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="625.0" prefWidth="850.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.InternalOperationsFormController">
    <children>
       <TableView fx:id="userTbl" layoutX="319.0" layoutY="3.0" prefHeight="618.0" prefWidth="529.0">
@@ -22,12 +21,12 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="38.0" layoutY="270.0" onAction="#updateAccBtnOnAction" prefHeight="62.0" prefWidth="267.0" style="-fx-background-color: green;" text="Update Account" textFill="WHITE">
+      <JFXButton fx:id="updateBtn" layoutX="38.0" layoutY="270.0" onAction="#updateAccBtnOnAction" prefHeight="62.0" prefWidth="267.0" style="-fx-background-color: green;" text="Update Account" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="38.0" layoutY="369.0" onAction="#deleteBtnOnAction" prefHeight="62.0" prefWidth="267.0" style="-fx-background-color: green;" text="Delete Account" textFill="WHITE">
+      <JFXButton fx:id="deleteBtn" layoutX="38.0" layoutY="369.0" onAction="#deleteBtnOnAction" prefHeight="62.0" prefWidth="267.0" style="-fx-background-color: green;" text="Delete Account" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>

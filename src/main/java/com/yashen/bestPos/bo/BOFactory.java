@@ -28,6 +28,8 @@ public class BOFactory {
                 return (T) new DeliveryStatusBOImpl();
             case AGENCY:
                 return (T) new DeliveryAgencyBOImpl();
+            case USER:
+                return (T) new UserBOImpl();
             default:
                 return null;
         }

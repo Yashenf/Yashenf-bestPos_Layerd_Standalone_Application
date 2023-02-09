@@ -48,6 +48,9 @@ public class Navigation {
             case AGENCY:
                 resource = Navigation.class.getResource("/views/DeliveryAgency.fxml");
                 break;
+            case USER:
+                resource = Navigation.class.getResource("/views/InternalOperationsForm.fxml");
+                break;
         }
 
 

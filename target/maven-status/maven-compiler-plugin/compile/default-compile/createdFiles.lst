@@ -1,7 +1,9 @@
 com\yashen\bestPos\bo\BOFactory$1.class
 com\yashen\bestPos\controll\agency\UpdateAgencyController.class
 com\yashen\bestPos\bo\custom\impl\OrderBOImpl.class
+com\yashen\bestPos\bo\custom\impl\UserBOImpl.class
 com\yashen\bestPos\dto\OrderDTO.class
+com\yashen\bestPos\bo\custom\UserBO.class
 com\yashen\bestPos\bo\custom\DeliveryAgencyBO.class
 com\yashen\bestPos\bo\custom\CustomerBO.class
 com\yashen\bestPos\bo\custom\impl\CustomerBOImpl.class
@@ -11,12 +13,15 @@ com\yashen\bestPos\bo\custom\PlaceOrderBO.class
 com\yashen\bestPos\bo\custom\ProductBO.class
 com\yashen\bestPos\bo\custom\impl\ProductBOImpl.class
 com\yashen\bestPos\controll\CustomerFormController.class
+com\yashen\bestPos\controll\users\UpdateUserController.class
 com\yashen\bestPos\bo\SuperBO.class
 com\yashen\bestPos\util\Navigation$1.class
 com\yashen\bestPos\dto\OrderDetailsDTO.class
 com\yashen\bestPos\controll\InternalOperationsFormController.class
+com\yashen\bestPos\dao\custom\UserDAO.class
 com\yashen\bestPos\controll\agency\AddNewAgencyController.class
 com\yashen\bestPos\bo\custom\impl\DeliveryStatusBOImpl.class
+com\yashen\bestPos\dto\UserDTO.class
 com\yashen\bestPos\bo\custom\impl\OrderDetailsBOImpl.class
 com\yashen\bestPos\controll\DeliveryAgencyController.class
 com\yashen\bestPos\controll\OrderFormController.class
@@ -26,6 +31,7 @@ com\yashen\bestPos\controll\PlaceOrderFormController.class
 com\yashen\bestPos\dto\CustomerDTO.class
 com\yashen\bestPos\bo\custom\DeliveryStatusBO.class
 com\yashen\bestPos\bo\custom\OrderDetailsBO.class
+com\yashen\bestPos\entity\User.class
 com\yashen\bestPos\util\Navigation.class
 com\yashen\bestPos\bo\custom\OrderBO.class
 com\yashen\bestPos\controll\view\tm\OrderDetailsTM.class
@@ -33,6 +39,7 @@ com\yashen\bestPos\dto\DeliveryStatusDTO.class
 com\yashen\bestPos\controll\ProductForm.class
 com\yashen\bestPos\controll\MainFormController.class
 com\yashen\bestPos\util\Route.class
+com\yashen\bestPos\controll\users\AddNewUserController.class
 com\yashen\bestPos\dto\ProductDTO.class
 com\yashen\bestPos\controll\customer\AddNewCustomerController.class
 com\yashen\bestPos\bo\BOTypes.class
@@ -42,4 +49,5 @@ com\yashen\bestPos\bo\BOFactory.class
 com\yashen\bestPos\controll\customer\UpdateCustomerForm.class
 com\yashen\bestPos\bo\custom\impl\PlaceOrderBOImpl.class
 com\yashen\bestPos\controll\ContainerController.class
+com\yashen\bestPos\dao\custom\impl\UserDAOImpl.class
 com\yashen\bestPos\bo\custom\impl\DeliveryAgencyBOImpl.class

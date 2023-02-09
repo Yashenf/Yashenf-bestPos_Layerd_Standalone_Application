@@ -116,4 +116,27 @@ public class Converter {
         );
     }
 
+    public User toUser(UserDTO userDTO){
+        return new User(
+                userDTO.getName(),
+                userDTO.getAddress(),
+                userDTO.getUsername(),
+                userDTO.getPassword(),
+                userDTO.getAccType()
+        );
+    }
+
+    public UserDTO fromUser(User user){
+        if (user == null){
+            return new UserDTO();
+        }
+        return new UserDTO(
+                user.getName(),
+                user.getAddress(),
+                user.getUsername(),
+                user.getPassword(),
+                user.getAccType()
+        );
+    }
+
 }

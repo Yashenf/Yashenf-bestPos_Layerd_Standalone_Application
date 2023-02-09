@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="446.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yashen.bestPos.controll.users.AddNewUserController">
+   <children>
+      <Label layoutX="251.0" layoutY="21.0" prefHeight="38.0" prefWidth="253.0" text="Add New User">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="nameTxt" layoutX="43.0" layoutY="115.0" prefHeight="31.0" prefWidth="320.0" promptText="name" />
+      <JFXTextField fx:id="usernameTxt" layoutX="43.0" layoutY="208.0" prefHeight="31.0" prefWidth="320.0" promptText="username" />
+      <JFXTextField fx:id="addressTxt" layoutX="43.0" layoutY="301.0" prefHeight="31.0" prefWidth="686.0" promptText="address" />
+      <JFXPasswordField fx:id="passwordTxt" layoutX="399.0" layoutY="216.0" prefHeight="31.0" prefWidth="320.0" promptText="password" />
+      <JFXComboBox fx:id="accountTypeCmb" layoutX="410.0" layoutY="116.0" prefHeight="31.0" prefWidth="294.0" promptText="account type" />
+      <JFXButton fx:id="saveBtn" layoutX="575.0" layoutY="372.0" onAction="#saveBtnOnAction" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: green;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

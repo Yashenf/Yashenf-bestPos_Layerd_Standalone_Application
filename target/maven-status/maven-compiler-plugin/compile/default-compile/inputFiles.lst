@@ -3,8 +3,10 @@ D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestP
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\custom\impl\OrderDetailsBOImpl.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\util\Navigation.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dto\DeliveryAgencyDTO.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\users\AddNewUserController.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\entity\SuperEntity.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\DeliveryAgencyController.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\entity\User.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\entity\DeliveryCompany.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\Test.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\agency\UpdateAgencyController.java
@@ -21,8 +23,11 @@ D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestP
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\DeliveryCompanyDAO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dto\ProductDTO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dto\OrderDetailsDTO.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\impl\UserDAOImpl.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\custom\OrderDetailsBO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\impl\OrderDAOImpl.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\UserDAO.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\users\UpdateUserController.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\custom\ProductBO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\util\Converter.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\OrderDetailsDAO.java
@@ -30,7 +35,9 @@ D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestP
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\CustomerDAO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\OrderDAO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\ProductForm.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dto\UserDTO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\entity\Order.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\custom\UserBO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\view\tm\OrderDetailsTM.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\BOFactory.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dto\CustomerDTO.java
@@ -47,6 +54,7 @@ D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestP
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\custom\impl\DeliveryStatusBOImpl.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\customer\UpdateCustomerForm.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\BOTypes.java
+D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\bo\custom\impl\UserBOImpl.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\entity\Customer.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\dao\custom\QueryDAO.java
 D:\ijse\AD1\bestPos_Layerd_Standalone_Application\src\main\java\com\yashen\bestPos\controll\product\UpdateProductController.java
